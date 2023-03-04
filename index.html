@@ -2033,7 +2033,7 @@
                                     <input type="radio" name="ticket-price" id="standard" checked required>
                                     <label for="standard" class="select-ticket-package">
                                         <img src="assets/images/one.png" alt="Image">
-                                        <span class="h5">Standard</span>
+                                        <span class="h5">Early bird</span>
                                         <span class="h4">$ 49.00 USD</span>
                                         <span class="checkmark"></span>
                                     </label>
@@ -2042,12 +2042,12 @@
                                     <input type="radio" name="ticket-price" id="premium" required>
                                     <label for="premium" class="select-ticket-package">
                                         <img src="assets/images/two.png" alt="Image">
-                                        <span class="h5">Premium</span>
+                                        <span class="h5">standard</span>
                                         <span class="h4">$ 69.00 USD</span>
                                         <span class="checkmark"></span>
                                     </label>
                                 </div>
-                                <div class="select-package">
+                                <!-- <div class="select-package">
                                     <input type="radio" name="ticket-price" id="deluxe" required>
                                     <label for="deluxe" class="select-ticket-package">
                                         <img src="assets/images/three.png" alt="Image">
@@ -2055,7 +2055,7 @@
                                         <span class="h4">$ 99.00 USD</span>
                                         <span class="checkmark"></span>
                                     </label>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="input-single-group">
                                 <div class="input-single">
@@ -2064,29 +2064,80 @@
                                         required>
                                 </div>
                                 <div class="input-single">
-                                    <label for="billEmail">Email*</label>
-                                    <input type="email" name="billEmail" id="billEmail" placeholder="Enter Your Email"
+                                    <label for="billEmail">Surname*</label>
+                                    <input type="text" name="billEmail" id="billEmail" placeholder="Enter Your Surname"
                                         required>
                                 </div>
                             </div>
                             <div class="input-single-group">
                                 <div class="input-single">
-                                    <label for="billPhone">Phone*</label>
-                                    <input type="tel" name="billPhone" id="billPhone"
-                                        placeholder="Enter your phone number" required>
+                                    <label for="billName">Job Title*</label>
+                                    <input type="text" name="billName" id="billName" placeholder="Enter Your Job Title"
+                                        required>
                                 </div>
                                 <div class="input-single">
-                                    <label for="billTicket">Number of tickets**</label>
-                                    <input type="number" name="billTicket" id="billTicket"
-                                        placeholder="Enter  number of tickets" required>
+                                    <label for="billEmail">Organization*</label>
+                                    <input type="text" name="billEmail" id="billEmail" placeholder="Enter Your Organization"
+                                        required>
                                 </div>
                             </div>
-                            <div class="input-single input-checkbox mb-0">
-                                <input type="checkbox" id="newsSubscribe" name="newsSubscribe" value="Subscribe"
-                                    checked>
-                                <span class="checkbox-check"></span>
-                                <label for="newsSubscribe">Subscribe to our newsletter</label>
+                            <div class="input-single-group">
+                                <div class="input-single">
+                                    <label for="billName">State*</label>
+                                    <input type="text" name="billName" id="billName" placeholder="Enter Your state"
+                                        required>
+                                </div>
+                                <div class="input-single">
+                                    <label for="billEmail">Post code*</label>
+                                    <input type="text" name="billEmail" id="billEmail" placeholder="Enter Your Post code"
+                                        required>
+                                </div>
                             </div>
+                            <div class="input-single-group">
+                                <div class="input-single">
+                                    <label for="billName">Country*</label>
+                                    <input type="text" name="billName" id="billName" placeholder="Enter Your Country"
+                                        required>
+                                </div>
+                                <div class="input-single">
+                                    <label for="billEmail">Phone Number*</label>
+                                    <input type="text" name="billEmail" id="billEmail" placeholder="Enter Your Phone Number"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="input-single-group">
+                                <div class="input-single">
+                                    <label for="billPhone">Email Address*</label>
+                                    <input type="email" name="billPhone" id="billPhone"
+                                        placeholder="Enter your Email address" required>
+                                </div>
+                                <div class="input-single">
+                                    <label for="billTicket"> Name of Safety Body*</label>
+                                    <input type="number" name="billTicket" id="billTicket"
+                                        placeholder="Enter Name of Safety Body" required>
+                                </div>
+                            </div>
+                            <div class="input-single-group">
+                                <div class="input-single">
+                                    <label for="billPhone">How did you hear about the Conference*</label>
+                                    <select class="formbold-form-select" name="occupation" id="occupation">
+                                        <option value="Medical Doctor">Email</option>
+                                        <option value="Pharmacist"> Media </option>
+                                        <option value="Nurse"> Website </option>
+                                        <option value="Mid-wife">Friend/Colleague </option>
+                                        <option value="Occupational therapist">Flyer </option>
+                                        <option value="Health professionals">Web Search </option>
+                                        <option value="Physiotherapists"> Advertisement </option>
+                                        <option value="Others"> Event Listing </option>
+                                      </select>
+                                </div>
+                                <div class="input-single">
+                                    <label for="billTicket"> Name of Safety Body*</label>
+                                    <input type="number" name="billTicket" id="billTicket"
+                                        placeholder="Enter Name of Safety Body" required>
+                                </div>
+                            </div>
+                            
                             <div class="payment-method">
                                 <h5>Payment Method</h5>
                                 <div class="payment-package">
