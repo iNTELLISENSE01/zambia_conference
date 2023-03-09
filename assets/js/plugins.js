@@ -37,7 +37,7 @@
     if (document.querySelector(".countdown") !== null) {
       $(".countdown").downCount(
         {
-          date: "03/13/2027 11:59:59",
+          date: "09/07/2023 11:59:59",
           offset: +10,
         },
         function () {
