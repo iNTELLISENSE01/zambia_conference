@@ -101,6 +101,13 @@ button {
   letter-spacing: 1px;
 }
 
+
+.list-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 a i,
 button i {
   transition: inherit;
